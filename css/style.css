@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *::after {
+    box-sizing: inherit;
+}
+/* Globales */
+a {
+    text-decoration: none;
+    color: #000
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Header y Navegacion */
+.nombre-sitio {
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+ .nombre-sitio span {
+    color: #037bc0;
+}
+
+.contendor-navegacion {
+    border-color: #e1e1e1;
+    border-top-style: solid;
+    border-width: 1px;
+}
+
+.nav-principal {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    background-image: url(../img/principal.jpg);
+    height: 550px;
+    background-size: cover;
+}
+
+/* Categorias */
+.listado-categoria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

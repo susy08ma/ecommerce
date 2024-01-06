@@ -3,46 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ecommerce-Index</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Tienda Muebles</h1> 
+        <h1 class="nombre-sitio">Tienda <span>Muebles</span></h1> 
     </header>
 
-    <nav>
-        <a href="index.html">Inicio</a> 
-        <a href="nosotros.html">Nosotros</a> 
-        <a href="tienda.html">Tienda</a> 
-        <a href="blog.html">Blog</a> 
-        <a href="galeria.html">Galería</a> 
-        <a href="contacto.html">Contacto</a> 
-    </nav>
+    <div class="contendor-navegacion">
+        <nav class="nav-principal contenedor">
+            <a href="index.html">Inicio</a> 
+            <a href="nosotros.html">Nosotros</a> 
+            <a href="tienda.html">Tienda</a> 
+            <a href="blog.html">Blog</a> 
+            <a href="galeria.html">Galería</a> 
+            <a href="contacto.html">Contacto</a> 
+        </nav>
+    </div>
 
-    <section>
+    <div class="hero"></div>
+
+    <section class="contenedor">
 
         <h2>Categorías de Productos</h2>
-
-        <div>
-            <img src="img/categoria1.jpg"/>
-            <a href="">Oficina</a>
-        </div>
-
-        <div>
-            <img src="img/categoria2.jpg"/>
-            <a href="">Hogar</a>
-        </div>
-
-        <div>
-            <img src="img/categoria3.jpg"/>
-            <a href="">Cocina</a>
+        
+        <div class="listado-categoria">
+            <div>
+                <img src="img/categoria1.jpg"/>
+                <a href="">Oficina</a>
+            </div>
+    
+            <div>
+                <img src="img/categoria2.jpg"/>
+                <a href="">Hogar</a>
+            </div>
+    
+            <div>
+                <img src="img/categoria3.jpg"/>
+                <a href="">Cocina</a>
+            </div>
         </div>
 
     </section>
 
-    <section>
+    <section class="sobre-nosotros">
         <div>
             <h2>Sobre nosotros</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit doloribus, sed maxime corrupti adipisci recusandae odit. Alias perspiciatis rem, ipsam expedita id corporis voluptates asperiores, laborum tempora voluptatum suscipit iure.</p>
@@ -124,15 +132,17 @@
     <footer>
         <div>
             <h3>Categorías</h3>
-            <nav>
+            <nav class="navegacion">
                 <a href="#">Cocina</a>
                 <a href="#">Oficina</a>
                 <a href="#">Jardín</a>
                 <a href="#">Cochera</a>
                 <a href="#">Dormitorios</a>
+            </nav>
         </div>
+        <div>
             <h3>Sobre Nosotros</h3>
-            <nav>
+            <nav class="navegacion">
                 <a href="#">Nuestra Historia</a>
                 <a href="#">Misión, Visión y Valores</a>
                 <a href="#">Carreras</a>
@@ -146,11 +156,10 @@
             <nav>
                 <a href="#">Preguntas Frecuentes</a>
                 <a href="#">Ayuda en Línea</a>
-                <a href="#">Confianza y Seguridad</a>
-                
+                <a href="#">Confianza y Seguridad</a>   
             </nav>
         </div>
-
+        
         <p>Todos los derechos reservados TiendaMuebles</p>
     </footer>
    

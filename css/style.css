@@ -43,6 +43,10 @@ img {
     display: block;
 }
 
+/* Utilidades */
+.text-center {
+    text-align: center;
+}
 
 /* Header y Navegacion */
 
@@ -106,18 +110,50 @@ img {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 100%, 120rem;
-    
-    
+    margin: 5rem; 
 }
 
-.contendor {
-    display: grid;
-}
 .sobre-nosotros-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 4rem;
+    column-gap: 6rem;
 }
 .texto-nosotros {
-    grid-column: 3 / 4;
+    grid-column: 2 / 3;
+    color: #fff;
 }
+/* Listado de productos */
+
+.contenido-principal {
+    padding-top: 5rem;
+}
+.producto {
+    background-color: #037bc0;
+}
+.texto-producto {
+    text-align: center;
+    color: #fff;
+
+}
+.texto-producto h3 {
+    margin: 2rem;
+}
+.texto-producto p {
+   margin: 0 0 0 0;
+   padding: 2rem;
+}
+
+.precio {
+    font-size: 2.8rem;
+    font-weight: 900;
+
+}
+.texto-producto a {
+    background-color: #8cbc00;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+
